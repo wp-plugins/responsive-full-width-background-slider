@@ -14,6 +14,7 @@ Awesome Responsive Full Width Background Slider Plugin for full screen slide sho
 
 Awesome Responsive Full Width Background Slider Plugin for WordPress provides you a very attractive full screen slide show in background of your wordpress theme.
 
+= Features =
 * Can define a place where to show or where not to show a slider through out the site.  
 * Can set Slide Duration between multiple slides.  
 * Can set Transition speed of slides.
@@ -26,7 +27,10 @@ Awesome Responsive Full Width Background Slider Plugin for WordPress provides yo
 * Can add multiple images to rotate as a slider.
 
 
-Click Here for Demo http://wptreasure.com/downloads/responsive-full-width-background-slider 
+**Click Here for Demo: <a href="http://wptreasure.com/downloads/responsive-full-width-background-slider/
+" target="_blank">Responsive Full Width Background Slider</a>**
+
+
 
 == Installation ==
 
