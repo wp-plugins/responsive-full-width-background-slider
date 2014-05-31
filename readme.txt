@@ -1,7 +1,7 @@
 === Responsive Full Width Background Slider ===
 Contributors: wptreasure
 Donate link: http://www.wptreasure.com
-Tags: wordpress slider, wordpress slider plugin, responsive slider, rotator, background slider , background image slider , responsive full width background slider, slider , image slider , full width background slider , full width image slider, slideshow, responsive slideshow,responsive rotator, jquery slider, javascript slider, jquery rotator, javascript rotator, picture slider, photo rotator, wordpress slideshow, photo slider, responsive picture slider, photo gallery, wordpress photo gallery
+Tags: wordpress slider, wordpress slider plugin, responsive slider, rotator, background slider, background image slider, responsive full width background slider, slider, image slider, full width background slider, full page background slider, full width image slider, slideshow, responsive slideshow, responsive rotator, jquery slider, javascript slider, jquery rotator, javascript rotator, picture slider, photo rotator, wordpress slideshow, photo slider, responsive picture slider, photo gallery, wordpress photo gallery
 Requires at least: 3.0.0
 Tested up to: 3.9
 Stable tag: 1.0.0
