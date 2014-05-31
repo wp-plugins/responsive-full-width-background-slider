@@ -1,11 +1,6 @@
 <?php
 class rfwbsFront
 {
-
-	function __construct() {
-		add_filter('body_class',array(&$this,'rfwbs_class_name'));
-    }
-
 	// DISPLAY RFWBSLIDER
 	function rfwbs_display()
 	{
@@ -105,6 +100,7 @@ class rfwbsFront
 						jQuery('.rfwbs_slider').css('z-index','-1');
 					}
 				});
+				jQuery('body').addClass('rfwbs-active');
 			});
 		</script>
 		
@@ -126,12 +122,6 @@ class rfwbsFront
 		if ( ! $current_post_type )
 		return FALSE;
 		return in_array( $current_post_type, $custom_types );
-	}
-	
-	// ADD SPECIFIC CLASS BY FILTER
-	function rfwbs_class_name($classes) {
-		$classes[] = 'rfwbs-active';
-		return $classes;
 	}
 }
 ?>

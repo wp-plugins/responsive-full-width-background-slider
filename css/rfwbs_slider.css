@@ -11,6 +11,7 @@ body.rfwbs-active{
 	top: 0;
 	width: 100%;
 	z-index: -1;
+	background:#fff;
 }
 .rfwbs_slider .rfwbs_container {
 	display: none;
