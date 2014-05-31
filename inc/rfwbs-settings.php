@@ -23,20 +23,20 @@ function rfwbs_backend_menu()
 						<div class="rfwbs_setting">
 							<table cellpadding="9" class="rfwbs_settbl" id="rfwbs_settbl" style="width: 97%">
 								<tbody>
-								<tr><td style="width: 230px !important;" class="rfwbs_tdbt" colspan="2">Where to show Default RFWRS Gallery &nbsp;&nbsp;&nbsp;:</td></tr>
+								<tr><td style="width: 230px !important;" class="rfwbs_tdbt" colspan="2"><?php _e('Where to show Default RFWB Slider','rfwbslider'); ?></td></tr>
 								<tr>
 									<td colspan="2">
-										<label for="rfwbs_pages" class="<?php if($rfwbs_getOpts['rfwbs_pages']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_pages]" id="rfwbs_pages" <?php if($rfwbs_getOpts['rfwbs_pages']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Pages",'rfwbsallery'); ?></label>
-										<label for="rfwbs_posts" class="<?php if($rfwbs_getOpts['rfwbs_posts']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_posts]" id="rfwbs_posts" <?php if($rfwbs_getOpts['rfwbs_posts']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Posts",'rfwbsallery'); ?></label>
-										<label for="rfwbs_homep" class="<?php if($rfwbs_getOpts['rfwbs_frontpg']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_frontpg]" id="rfwbs_homep" <?php if($rfwbs_getOpts['rfwbs_frontpg']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Home Page",'rfwbsallery'); ?></label>
-										<label for="rfwbs_blogp" class="<?php if($rfwbs_getOpts['rfwbs_blogpg']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_blogpg]" id="rfwbs_blogp" <?php if($rfwbs_getOpts['rfwbs_blogpg']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Blog Page",'rfwbsallery'); ?></label>		
-										<label for="rfwbs_catgs" class="<?php if($rfwbs_getOpts['rfwbs_cats']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_cats]" id="rfwbs_catgs" <?php if($rfwbs_getOpts['rfwbs_cats']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Categories",'rfwbsallery'); ?></label>	
-										<label for="rfwbs_ctaxs" class="<?php if($rfwbs_getOpts['rfwbs_ctax']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_ctax]" id="rfwbs_ctaxs" <?php if($rfwbs_getOpts['rfwbs_ctax']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Custom Taxonomies",'rfwbsallery'); ?></label>		
-										<label for="rfwbs_cposts" class="<?php if($rfwbs_getOpts['rfwbs_cposts']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_cposts]" id="rfwbs_cposts" <?php if($rfwbs_getOpts['rfwbs_cposts']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Custom Post-Types",'rfwbsallery'); ?></label>		
-										<label for="rfwbs_tags"  class="<?php if($rfwbs_getOpts['rfwbs_tags']){ ?> checked <?php } ?>" ><input type="checkbox"  class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_tags]" id="rfwbs_tags" <?php if($rfwbs_getOpts['rfwbs_tags']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Tags",'rfwbsallery'); ?></label>		
-										<label for="rfwbs_date"  class="<?php if($rfwbs_getOpts['rfwbs_date']){ ?> checked <?php } ?>" ><input type="checkbox"  class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_date]" id="rfwbs_date" <?php if($rfwbs_getOpts['rfwbs_date']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Date Archive",'rfwbsallery'); ?></label>													
-										<label for="rfwbs_auth"  class="<?php if($rfwbs_getOpts['rfwbs_author']){ ?> checked <?php } ?>" ><input type="checkbox"  class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_author]" id="rfwbs_auth" <?php if($rfwbs_getOpts['rfwbs_author']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Author Page",'rfwbsallery'); ?></label>													
-										<label for="rfwbs_srch"  class="<?php if($rfwbs_getOpts['rfwbs_search']){ ?> checked <?php } ?>" ><input type="checkbox"  class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_search]" id="rfwbs_srch" <?php if($rfwbs_getOpts['rfwbs_search']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Search Page",'rfwbsallery'); ?></label>													
+										<label for="rfwbs_pages" class="<?php if($rfwbs_getOpts['rfwbs_pages']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_pages]" id="rfwbs_pages" <?php if($rfwbs_getOpts['rfwbs_pages']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Pages",'rfwbs'); ?></label>
+										<label for="rfwbs_posts" class="<?php if($rfwbs_getOpts['rfwbs_posts']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_posts]" id="rfwbs_posts" <?php if($rfwbs_getOpts['rfwbs_posts']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Posts",'rfwbs'); ?></label>
+										<label for="rfwbs_homep" class="<?php if($rfwbs_getOpts['rfwbs_frontpg']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_frontpg]" id="rfwbs_homep" <?php if($rfwbs_getOpts['rfwbs_frontpg']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Home Page",'rfwbs'); ?></label>
+										<label for="rfwbs_blogp" class="<?php if($rfwbs_getOpts['rfwbs_blogpg']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_blogpg]" id="rfwbs_blogp" <?php if($rfwbs_getOpts['rfwbs_blogpg']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Blog Page",'rfwbs'); ?></label>		
+										<label for="rfwbs_catgs" class="<?php if($rfwbs_getOpts['rfwbs_cats']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_cats]" id="rfwbs_catgs" <?php if($rfwbs_getOpts['rfwbs_cats']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Categories",'rfwbs'); ?></label>	
+										<label for="rfwbs_ctaxs" class="<?php if($rfwbs_getOpts['rfwbs_ctax']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_ctax]" id="rfwbs_ctaxs" <?php if($rfwbs_getOpts['rfwbs_ctax']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Custom Taxonomies",'rfwbs'); ?></label>		
+										<label for="rfwbs_cposts" class="<?php if($rfwbs_getOpts['rfwbs_cposts']){ ?> checked <?php } ?>" ><input type="checkbox" class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_cposts]" id="rfwbs_cposts" <?php if($rfwbs_getOpts['rfwbs_cposts']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Custom Post-Types",'rfwbs'); ?></label>		
+										<label for="rfwbs_tags"  class="<?php if($rfwbs_getOpts['rfwbs_tags']){ ?> checked <?php } ?>" ><input type="checkbox"  class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_tags]" id="rfwbs_tags" <?php if($rfwbs_getOpts['rfwbs_tags']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Tags",'rfwbs'); ?></label>		
+										<label for="rfwbs_date"  class="<?php if($rfwbs_getOpts['rfwbs_date']){ ?> checked <?php } ?>" ><input type="checkbox"  class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_date]" id="rfwbs_date" <?php if($rfwbs_getOpts['rfwbs_date']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Date Archive",'rfwbs'); ?></label>													
+										<label for="rfwbs_auth"  class="<?php if($rfwbs_getOpts['rfwbs_author']){ ?> checked <?php } ?>" ><input type="checkbox"  class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_author]" id="rfwbs_auth" <?php if($rfwbs_getOpts['rfwbs_author']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Author Page",'rfwbs'); ?></label>													
+										<label for="rfwbs_srch"  class="<?php if($rfwbs_getOpts['rfwbs_search']){ ?> checked <?php } ?>" ><input type="checkbox"  class="rfwbs_smallchkbox" name="rfwbs_settings[rfwbs_search]" id="rfwbs_srch" <?php if($rfwbs_getOpts['rfwbs_search']){ ?> checked <?php } ?> value="true" />&nbsp;<?php _e("Search Page",'rfwbs'); ?></label>													
 										<div class="rfwbs_clear"></div>
 									</td>                                             
 								</tr>
@@ -144,7 +144,7 @@ function rfwbs_backend_menu()
 				<h3 class="hndle"><span><?php _e("Slides Settings",'rfwbs'); ?></span></h3>
 				<div class="inside" style="padding: 15px;margin: 0;">
 						<table border="0">
-							<tr><td class="rfwbs_tdbt" style="font-weight:600;" colspan="2"><label><?php _e('Please Enter Slider slides URL / PATH','rfwbsallery'); ?></label></td></tr>
+							<tr><td class="rfwbs_tdbt" style="font-weight:600;" colspan="2"><label><?php _e('Please Enter Slider slides URL / PATH','rfwbs'); ?></label></td></tr>
 							<tr>
 								<td colspan="2">
 									<ul id="rfwbs_slides">
@@ -178,7 +178,7 @@ function rfwbs_backend_menu()
 							<?php _e('You Can pur Shortcode "<b>[rfwbs_icons]</b>"')?>
 						</div>
 						<p class="button-controls"><input type="submit" value="<?php _e('Save Settings','rfwbs'); ?>" class="button-primary" id="rfwbs_update" name="rfwbs_update"></p>
-						<input type="hidden" name="security" value="<?php echo wp_create_nonce('rfwbsallery-options-data'); ?>" />
+						<input type="hidden" name="security" value="<?php echo wp_create_nonce('rfwbs-options-data'); ?>" />
 						
 						<input type="hidden" name="action" value="update" />
 					    <input type="hidden" name="page_options" value="rfwbs_settings" />
