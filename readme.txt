@@ -3,7 +3,7 @@ Contributors: wptreasure
 Donate link: http://www.wptreasure.com
 Tags: wordpress slider, wordpress slider plugin, responsive slider, rotator, background slider , background image slider , responsive full width background slider, slider , image slider , full width background slider , full width image slider, slideshow, responsive slideshow,responsive rotator, jquery slider, javascript slider, jquery rotator, javascript rotator, picture slider, photo rotator, wordpress slideshow, photo slider, responsive picture slider, photo gallery, wordpress photo gallery
 Requires at least: 3.0.0
-Tested up to: 3.9.1
+Tested up to: 3.9
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,11 +26,8 @@ Awesome Responsive Full Width Background Slider Plugin for WordPress provides yo
 * Can set overlay screen over image.
 * Can add multiple images to rotate as a slider.
 
-
 **Click Here for Demo: <a href="http://wptreasure.com/downloads/responsive-full-width-background-slider/
 " target="_blank">Responsive Full Width Background Slider</a>**
-
-
 
 == Installation ==
 
