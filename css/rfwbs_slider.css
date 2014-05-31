@@ -1,0 +1,106 @@
+/*
+ RESPONSIVE FULL WIDTH BACKGROUND SLIDER STYLE
+*/
+
+body.rfwbs-active{
+	padding-bottom:40px;
+}
+
+.rfwbs_slider {
+    position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+.rfwbs_slider .rfwbs_container {
+	display: none;
+}
+.rfwbs_slider .scrollable {
+	*zoom: 1;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	height: 100%;
+}
+.rfwbs_slider .scrollable:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.rfwbs_slider  .rfwbs_navigation{
+	margin: 0 auto;
+	position: absolute;
+	z-index: 3;
+	top: 46%;
+	width: 100%;
+}
+.rfwbs_pagination {
+    background-color: #FFFFFF;
+    bottom: 0;
+    box-sizing: border-box;
+    opacity: 0.4;
+    padding: 11.3px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 999999999;
+}
+.rfwbs_pagination a {
+	width: 8px;
+	height: 12px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	zoom: 1;
+	*display: inline;
+	background-image: url("../inc/images/bullets.jpg");
+	margin: 2px;
+	overflow: hidden;
+	text-indent: -99999px;
+	outline:0 !important;
+	background-color:transparent;
+	background-position: 0 0 !important;
+}
+.rfwbs_pagination a.current {
+	/*background: #222;*/
+	background-position: 12px 0 !important;
+	width: 12px !important;
+}
+.rfwbs_slider .rfwbsoverlay {
+	height: 100%;
+	opacity: 0.5;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+}
+.rfwbs_navi img{
+	height: 20px;
+	outline:0 !important;
+}
+.rfwbs_navi{
+	padding:4px;
+	display:block;
+	background-color: #FFFFFF;
+	bottom: 0;
+	padding: 9px 4px 9px 3px;
+	position: fixed;
+	opacity: 0.7;
+	z-index: 999999999;
+}
+.rfwbs_navi a{
+	outline:0 !important;
+	width:20px;
+	height:20px;
+	display:inline-block;
+	margin-left: 8px;
+	margin-right: 6px;
+}
+#rfwbs_prev_slide,#rfwbs_next_slide{
+	margin:0 4px;
+	position: relative;
+    top: 2px;
+}
