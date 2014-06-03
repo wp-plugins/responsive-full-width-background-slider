@@ -42,6 +42,7 @@ class rfwbsFront
 						$rfwbs_imgsCount++;
 					}
 				}
+				if($rfwbs_imgsCount === '1'){$rfwbs_play = 'false';$rfwbs_navigation=0;}
 			  ?>
 			</div>
 	        <nav class="rfwbs_navigation" style="display:none">
@@ -51,7 +52,7 @@ class rfwbsFront
 			<?php
 			if(!empty($rfwbs_overlay)){
 				?>
-					<div class="rfwbsoverlay" style="background:url('<?php echo plugins_url( '/images/overlay/overlay.png' , __FILE__ )  ?>')"></div><div class="rfwbsoverlay"></div>
+					<div class="rfwbsoverlay" style="background:url('<?php echo plugins_url( '/images/overlay/overlay.png' , __FILE__ )  ?>')"></div>
 				<?php
 			}
 			?>

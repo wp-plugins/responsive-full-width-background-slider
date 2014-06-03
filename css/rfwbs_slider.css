@@ -47,9 +47,11 @@ body.rfwbs-active{
     text-align: center;
     width: 100%;
     z-index: 999999999;
+	height: 40px;
+	line-height: 0;
 }
 .rfwbs_pagination a {
-	width: 8px;
+	width: 9px;
 	height: 12px;
 	display: -moz-inline-stack;
 	display: inline-block;
@@ -58,47 +60,55 @@ body.rfwbs-active{
 	zoom: 1;
 	*display: inline;
 	background-image: url("../inc/images/bullets.jpg");
-	margin: 2px;
+	margin: 4px 2px 2px;
 	overflow: hidden;
 	text-indent: -99999px;
 	outline:0 !important;
 	background-color:transparent;
 	background-position: 0 0 !important;
+	line-height: 0;
+	border:0;
+	transition: none 0s ease 0s;
 }
-.rfwbs_pagination a.current {
-	/*background: #222;*/
+.rfwbs_pagination a.current{
 	background-position: 12px 0 !important;
 	width: 12px !important;
 }
+
+
 .rfwbs_slider .rfwbsoverlay {
 	height: 100%;
 	opacity: 0.5;
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 9;
+	z-index: 99;
 }
 .rfwbs_navi img{
 	height: 20px;
 	outline:0 !important;
 }
 .rfwbs_navi{
-	padding:4px;
-	display:block;
-	background-color: #FFFFFF;
-	bottom: 0;
-	padding: 9px 4px 9px 3px;
-	position: fixed;
-	opacity: 0.7;
-	z-index: 999999999;
+    background-color: rgba(255, 255, 255, 0.6);
+    bottom: 0;
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+    line-height: 0;
+    padding: 9px 4px 9px 3px;
+    position: fixed;
+    z-index: 999999999;
 }
 .rfwbs_navi a{
-	outline:0 !important;
-	width:20px;
-	height:20px;
-	display:inline-block;
-	margin-left: 8px;
-	margin-right: 6px;
+    border: 0 none;
+    display: inline-block;
+    height: 20px;
+    line-height: 0;
+    margin-left: 8px;
+    margin-right: 6px;
+    outline: 0 none !important;
+    padding: 0;
+    width: 20px;
 }
 #rfwbs_prev_slide,#rfwbs_next_slide{
 	margin:0 4px;

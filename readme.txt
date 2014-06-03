@@ -4,16 +4,16 @@ Donate link: http://www.wptreasure.com
 Tags: wordpress slider, wordpress slider plugin, responsive slider, rotator, background slider, background image slider, responsive full width background slider, slider, image slider, full width background slider, full page background slider, full width image slider, slideshow, responsive slideshow, responsive rotator, jquery slider, javascript slider, jquery rotator, javascript rotator, picture slider, photo rotator, wordpress slideshow, photo slider, responsive picture slider, photo gallery, wordpress photo gallery
 Requires at least: 3.0.0
 Tested up to: 3.9
-Stable tag: 1.0.0
-Version: 1.0.0 
+Stable tag: 1.0.1
+Version: 1.0.1 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Awesome Responsive Full Width Background Slider Plugin for full screen slide show in background of your wordpress theme.
+Awesome Responsive Full Width Background Slider Plugin for full screen slide show in background of your WordPress site.
 
 == Description ==
 
-Awesome Responsive Full Width Background Slider Plugin for WordPress provides you a very attractive full screen slide show in background of your wordpress theme.
+Awesome Responsive Full Width Background Slider Plugin for WordPress provides you a very attractive full screen slide show in background of your WordPress site.
 
 = Features =
 * Can define a place where to show or where not to show a slider through out the site.  
@@ -26,6 +26,7 @@ Awesome Responsive Full Width Background Slider Plugin for WordPress provides yo
 * Can change the slide animation type that is fade / slide.
 * Can set overlay screen over image.
 * Can add multiple images to rotate as a slider.
+* Can re-order slides via simply Drag & Drop method.
 
 **Click Here for Demo: <a href="http://wptreasure.com/downloads/responsive-full-width-background-slider/
 " target="_blank">Responsive Full Width Background Slider</a>**
@@ -48,7 +49,12 @@ Enjoy it......
 
 == Changelog ==
 
-=Version 1.0.0= 
+=Version 1.0.1=
+
+* Fixed slider css issues.
+* Fixed single image disappear issue.
+
+=Version 1.0.0=
 
 * Initial Release
 
