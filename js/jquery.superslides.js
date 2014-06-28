@@ -50,15 +50,6 @@ Superslides = function(el, options) {
       }
     });
 
-    $(document).on('keyup', function(e) {
-      if (e.keyCode === 37) {
-        that.animate('rfwbs_prev');
-      }
-      if (e.keyCode === 39) {
-        that.animate('rfwbs_next');
-      }
-    });
-
     $(window).on('resize', function() {
       setTimeout(function() {
         var $children = that.$container.children();

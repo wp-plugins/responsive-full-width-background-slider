@@ -15,6 +15,7 @@ class rfwbsFront
 		$rfwbs_play       = $options["rfwbs_play"];
 		$rfwbs_animation  = $options["rfwbs_animation"];
 		$rfwbs_overlay    = $options["rfwbs_overlay"];
+		$rfwbs_random     = $options["rfwbs_random"];
 		$rfwbs_imgsArr    = $options["rfwbs_img"];
 		
 		if($rfwbs_play=='true'){$rfwbs_play = $rfwbs_interval;}
@@ -23,6 +24,7 @@ class rfwbsFront
 		$rfwbs_errors = array_filter($rfwbs_imgsArr);
 		$rfwbs_imgsCount = "";
 		
+		if($rfwbs_random && !empty($rfwbs_imgsArr)){shuffle($rfwbs_imgsArr);}
 
 		if(!empty($rfwbs_errors)){ 
 		?>

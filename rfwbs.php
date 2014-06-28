@@ -4,7 +4,7 @@ Plugin Name: Responsive Full Width Background Slider
 Plugin URI: http://wptreasure.com
 Description: Responsive Full Width Background Slider is very attractive full width background slider for pages and posts as well as custom post types
 Author: wptreasure
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://wptreasure.com
 */
 /*-------------------------------------------------*/
@@ -72,6 +72,7 @@ function rfwbs_settings()
 	'rfwbs_controlpos'=> 0,
 	'rfwbs_animation' => 'fade',
 	'rfwbs_overlay'   => 1,
+	'rfwbs_random'    => 1,
 	'rfwbs_img'		  => array(
 			plugins_url('inc/images/slide1.jpg',__FILE__),
 			plugins_url('inc/images/slide2.jpg',__FILE__),

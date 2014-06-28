@@ -128,6 +128,16 @@ function rfwbs_backend_menu()
 									</select>
 								</td>
 							</tr>
+							<tr>
+								<td><?php _e("Random Slides",'rfwbs'); ?> :</td>
+								<td>
+									<select id="rfwbs_overlay" name="rfwbs_settings[rfwbs_random]">
+										<option value="1" <?php selected('1', $rfwbs_getOpts['rfwbs_random']); ?>><?php _e('Enable','rfwbs'); ?></option>
+										<option value="0" <?php selected('0', $rfwbs_getOpts['rfwbs_random']); ?>><?php _e('Disable','rfwbs'); ?></option>
+									</select>
+								</td>
+							</tr>
+							
 						</table>
 						<div id="rfwbs_template_code" style="text-align:center;<?php if(empty($options['rfwbs_embed'])){?>display:none<?php } ?>">
 							<?php _e('if (function_exists (rfwbs_social_sharing_icons)) rfwbs_social_sharing_icons();','rfwbs') ?><br>
