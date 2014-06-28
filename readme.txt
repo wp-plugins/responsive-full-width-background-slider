@@ -26,6 +26,7 @@ Awesome Responsive Full Width Background Slider Plugin for WordPress provides yo
 * Can set overlay screen over image.
 * Can add multiple images to rotate as a slider.
 * Can re-order slides via simply Drag & Drop method.
+* Can arrange a slides in a random order.
 
 **Click Here for Demo: <a href="http://wptreasure.com/downloads/responsive-full-width-background-slider/
 " target="_blank">Responsive Full Width Background Slider</a>**
