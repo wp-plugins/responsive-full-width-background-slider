@@ -41,7 +41,7 @@ Awesome Responsive Full Width Background Slider Plugin for WordPress provides yo
 **Go PRO: <a href="http://codecanyon.net/item/responsive-full-width-background-slider/8502877
 " target="_blank">Responsive Full Width Background Slider PRO</a>**
 
-= PRO Version : Full List of Features =
+**= PRO Version : Full List of Features =**
 
 **Can use a different Variations for slider:**
 
