@@ -43,20 +43,19 @@ Awesome Responsive Full Width Background Slider Plugin for WordPress provides yo
 
 = PRO Version : Full List of Features =
 
+**Can use a different Variations for slider:**
 
-= Can use a different Variations for slider: =
+**1. <a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/?rfwbs_comingpage_preview=true">Coming Soon Template</a>**
 
-**<a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/?rfwbs_comingpage_preview=true">Coming Soon Template</a>**
+**2. <a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/awesome-front-gallery/">Awesome Front Gallery</a>**
 
-**<a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/awesome-front-gallery/">Awesome Front Gallery</a>**
+**3. <a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/category-post-slider/">Category Post Slider</a>**
 
-**<a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/category-post-slider/">Category Post Slider</a>**
+**4. <a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/slider-with-overlay-color/">Slider With Overlay Color</a>**
 
-**<a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/slider-with-overlay-color/">Slider With Overlay Color</a>**
+**5. <a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/slider-toggle-with-rounded-controls/">Slider With Toggle Control Bar</a>**
 
-**<a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/slider-toggle-with-rounded-controls/">Slider With Toggle Control Bar</a>**
-
-**<a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/">Slider With Overlay Image</a>**
+**6. <a target="_blank" href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/">Slider With Overlay Image</a>**
 
 = General Features =
 
