@@ -9,7 +9,7 @@ Superslides = function(el, options) {
   this.options = $.extend({
     play: false,
     animation_speed: 600,
-    animation_easing: 'swing',
+    animation_easing: 'linear',
     animation: 'slide',
     inherit_width_from: window,
     inherit_height_from: window,
@@ -250,7 +250,7 @@ var fx = {
 
     $target.css({
       left: this.width,
-      opacity: 0,
+      opacity: 1,
       display: 'block'
     }).animate({
           opacity: 1

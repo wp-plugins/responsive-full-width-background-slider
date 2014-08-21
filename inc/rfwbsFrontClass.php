@@ -82,8 +82,6 @@ class rfwbsFront
 					animation: '<?php echo $rfwbs_animation; ?>' ,
 					animation_speed: <?php echo $rfwbs_tspeed; ?>,
 					play: <?php echo $rfwbs_play; ?>,
-					slide_speed: 'normal',
-					slide_easing: 'linear',
 					pagination: <?php echo $rfwbs_bullet; ?>,
 				});
 			});
