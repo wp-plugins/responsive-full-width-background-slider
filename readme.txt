@@ -39,7 +39,7 @@ Awesome Responsive Full Width Background Slider Plugin for WordPress provides yo
 " target="_blank">Responsive Full Width Background Slider PRO Demo</a>**
 
 
-** PRO Version : Full List of Features **
+**PRO Version : Full List of Features**
 
 **Can use a different Variations for slider:**
 
