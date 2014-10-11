@@ -5,7 +5,7 @@ function rfwbs_backend_menu()
 {
 ?>
 <div id="rfwbs-admin-wrap">
-	<iframe class="wpt_iframe" src="http://www.wptreasure.com/iframes/vts-lite/iframe.php" width="100%" height="350px" scrolling="no" ></iframe> 
+	<iframe class="wpt_iframe" src="http://www.wptreasure.com/iframes/rfwbs-lite/iframe.php" width="100%" height="200px" scrolling="no" ></iframe> 
 	<form method="post" action="options.php">
 		<div class="wrap">
 		<div id="icon-themes" class="icon32"></div>

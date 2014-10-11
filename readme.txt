@@ -3,8 +3,8 @@ Contributors: wptreasure
 Donate link: http://www.wptreasure.com
 Tags: wordpress slider, wordpress slider plugin, responsive slider, rotator, background slider, background image slider, responsive full width background slider, slider, image slider, full width background slider, full page background slider, full width image slider, slideshow, responsive slideshow, responsive rotator, jquery slider, javascript slider, jquery rotator, javascript rotator, picture slider, photo rotator, wordpress slideshow, photo slider, responsive picture slider, photo gallery, wordpress photo gallery
 Requires at least: 3.5.0
-Tested up to: 3.9.2
-Stable tag: 1.0.3
+Tested up to: 4.0
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,10 +38,8 @@ Awesome Responsive Full Width Background Slider Plugin for WordPress provides yo
 **PRO Plugin Demo URL: <a href="http://wptreasure.com/demos/responsive-full-width-background-slider-pro/
 " target="_blank">Responsive Full Width Background Slider PRO Demo</a>**
 
-**Go PRO: <a href="http://codecanyon.net/item/responsive-full-width-background-slider/8502877
-" target="_blank">Responsive Full Width Background Slider PRO</a>**
 
-**= PRO Version : Full List of Features =**
+** PRO Version : Full List of Features **
 
 **Can use a different Variations for slider:**
 
@@ -158,6 +156,12 @@ Enjoy it......
 2. Page/Post Meta Checkbox.
 
 == Changelog ==
+
+=Version 1.0.4=
+
+* Comatible with the WordPress latest version (4.0).
+* Fixed slider css issues.
+* Fixed slider enable/disable issue in page/post editor.
 
 =Version 1.0.3=
 

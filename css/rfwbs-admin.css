@@ -18,4 +18,4 @@
 #rfwbs_slides li {cursor:move;}
 #rfwbs_slides li.focus{background: none repeat scroll 0 0 #eee;border:1px dashed #ddd;}
 #rfwbs_slides li.ui-state-highlight{background: #FAFCC9;border: 1px dashed #ECEF97;height:30px;}
-#rfwbs-admin-wrap   .wpt_iframe{left: 825px; margin-top: -4px; outline: medium none; position: fixed; top: 100px; width: 450px;} 
+#rfwbs-admin-wrap   .wpt_iframe{left: 825px; margin-top: -4px; outline: medium none; position: fixed; top: 100px; width: 300px; height: 250px;} 
